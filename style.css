@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Fasthand&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&display=swap');
+body {
+  background-color: rgba(68, 236, 68, 0.3);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline;
+  padding: 10px 15px;
+  margin: 15px 3px;
+}
+.menu li:hover {
+  background-color: rgba(255, 217, 0, 0.446);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+}
+.menu a {
+  color: blue;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: rgb(7, 7, 7);
+  text-decoration: underline;
+  background-color: rgb(246, 240, 240);
+  border-radius: 5px;
+}
+#main {
+  width: 1200px;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+#header {
+  background-color: rgba(0, 128, 0, 0.511);
+  padding: 12px;
+  color: white;
+  text-align: right;
+}
+#logo {
+  padding: 10px 50px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 50px;
+  font-size: 20px;
+}
+.clear {
+  clear: both;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+#menu {
+  display: flex;
+  justify-items: center;
+}
+.menu {
+  text-align: center;
+}
+#menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 15px;
+}
+.food {
+  width: 260px;
+  padding: 4px;
+  margin: 7px;
+  float: left;
+  border: 2px solid rgb(129, 247, 71);
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.food img {
+  width: 100%;
+  height: 280px;
+}
+.food:hover {
+  transform: translateY(-15px);
+}
+#listfood:hover > :not(:hover) {
+  opacity: 0.5;
+}
+.dring img {
+  width: 100%;
+  height: 700px;
+}
+.dring:hover {
+  transform: translateY(-15px);
+}
+.dring {
+  background-color: black;
+  color: white;
+  width: 260px;
+  padding: 4px;
+  margin: 7px;
+  float: left;
+  border: 2px solid rgb(129, 247, 71);
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.dring1 img {
+  width: 100%;
+  height: 400px;
+}
+.dring1:hover {
+  transform: translateY(-15px);
+}
+.dring1 {
+  width: 260px;
+  padding: 4px;
+  margin: 7px;
+  float: left;
+  border: 2px solid rgb(129, 247, 71);
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.footerfont {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.font1{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
